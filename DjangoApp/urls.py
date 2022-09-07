@@ -21,6 +21,6 @@ from django_project.other.views import homepage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('other/',include('other.urls'))
+    path('other/',include('other.urls')),
     
 ]
